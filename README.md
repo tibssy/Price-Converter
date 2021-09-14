@@ -3,7 +3,7 @@
 
 Price Converter reads price tags via camera and converts their value to a selected currency in real time. Can be useful when shopping abroad.
 
-For testing, the apk is in the bin folder
+For testing, the apk is in the bin folder (Apache Cordova Project)
 
 
 ![Screenshot_20210914_030246_com tibssy pclite](https://user-images.githubusercontent.com/72749248/133183260-cf5df662-b26d-4547-91df-961d9dd650b3.jpg)
