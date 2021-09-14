@@ -1,0 +1,40 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.tibssy.pclite"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.tibssy.pclite"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.tibssy.pclite"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.tibssy.pclite"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.tibssy.pclite"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.tibssy.pclite"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.tibssy.pclite"
+    },
+    "cordova-plugin-navigationbar-color": {
+      "PACKAGE_NAME": "com.tibssy.pclite"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.tibssy.pclite"
+    }
+  }
+}

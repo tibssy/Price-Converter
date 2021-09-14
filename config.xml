@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tibssy.pclite" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Price Converter Lite</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="StatusBarBackgroundColor" value="#e2eaef"/>
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="NavigationBarBackgroundColor" value="#e2eaef" />
+    <preference name="NavigationBarLight" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false"/>
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="FadeSplashScreenDuration" value="300"/>
+
+
+    <platform name="android">
+        <icon src="assets/icon/icon-ldpi.png" density="ldpi" />
+        <icon src="assets/icon/icon-mdpi.png" density="mdpi" />
+        <icon src="assets/icon/icon-hdpi.png" density="hdpi" />
+        <icon src="assets/icon/icon-xhdpi.png" density="xhdpi" />
+        <icon src="assets/icon/icon-xxhdpi.png" density="xxhdpi" />
+        <icon src="assets/icon/icon-xxxhdpi.png" density="xxxhdpi" />
+    </platform>
+
+    <platform name="android">
+        <splash src="assets/splash/splash-hdpi.png" density="port-hdpi" />
+        <splash src="assets/splash/splash-ldpi.png" density="port-ldpi" />
+        <splash src="assets/splash/splash-mdpi.png" density="port-mdpi" />
+        <splash src="assets/splash/splash-xhdpi.png" density="port-xhdpi" />
+        <splash src="assets/splash/splash-xxhdpi.png" density="port-xxhdpi" />
+        <splash src="assets/splash/splash-xxxhdpi.png" density="port-xxxhdpi" /> 
+    </platform>
+</widget>

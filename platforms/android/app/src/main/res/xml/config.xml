@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tibssy.pclite" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Permissions">
+        <param name="android-package" value="com.android.plugins.Permissions" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="CDVOrientation">
+        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
+    </feature>
+    <feature name="Toast">
+        <param name="android-package" value="nl.xservices.plugins.Toast" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="NavigationBar">
+        <param name="android-package" value="com.viniciusfagundes.cordova.plugin.navigationbar.NavigationBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Price Converter Lite</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="assets/icon/icon-ldpi.png" />
+    <icon density="mdpi" src="assets/icon/icon-mdpi.png" />
+    <icon density="hdpi" src="assets/icon/icon-hdpi.png" />
+    <icon density="xhdpi" src="assets/icon/icon-xhdpi.png" />
+    <icon density="xxhdpi" src="assets/icon/icon-xxhdpi.png" />
+    <icon density="xxxhdpi" src="assets/icon/icon-xxxhdpi.png" />
+    <splash density="port-hdpi" src="assets/splash/splash-hdpi.png" />
+    <splash density="port-ldpi" src="assets/splash/splash-ldpi.png" />
+    <splash density="port-mdpi" src="assets/splash/splash-mdpi.png" />
+    <splash density="port-xhdpi" src="assets/splash/splash-xhdpi.png" />
+    <splash density="port-xxhdpi" src="assets/splash/splash-xxhdpi.png" />
+    <splash density="port-xxxhdpi" src="assets/splash/splash-xxxhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="StatusBarBackgroundColor" value="#e2eaef" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="NavigationBarBackgroundColor" value="#e2eaef" />
+    <preference name="NavigationBarLight" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="FadeSplashScreenDuration" value="300" />
+</widget>
