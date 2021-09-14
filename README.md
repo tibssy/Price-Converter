@@ -3,6 +3,9 @@
 
 Price Converter reads price tags via camera and converts their value to a selected currency in real time. Can be useful when shopping abroad.
 
+For testing, the apk file location: 
+/platforms/android/app/build/outputs/apk/debug
+
 
 ![Screenshot_20210914_030246_com tibssy pclite](https://user-images.githubusercontent.com/72749248/133183260-cf5df662-b26d-4547-91df-961d9dd650b3.jpg)
 ![Screenshot_20210914_030314_com tibssy pclite](https://user-images.githubusercontent.com/72749248/133183261-95f205f1-e00c-496a-acca-8f2d4739a724.jpg)
